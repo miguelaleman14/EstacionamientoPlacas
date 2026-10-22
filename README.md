@@ -1,14 +1,12 @@
 # Sistema Automatizado de Control de Estacionamiento (ALPR)
 
-![Python](https://img.shields.io/badge/Python-3.14+-blue.svg)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)
-![OpenCV](https://img.shields.io/badge/OpenCV-ALPR-red.svg)
+
 
 Sistema automatizado de control de acceso vehicular para el nuevo estadio de fútbol de **Universidad TecMilenio**. Este proyecto utiliza visión artificial (OCR y clasificadores de cascada de Haar) para identificar automáticamente las placas de los vehículos, gestionando las entradas, salidas, cálculo de tarifas y asignación de lugares a través de una API REST.
 
 ---
 
-## ✨ Características Principales
+##  Características Principales
 
 *    **Reconocimiento Automático de Placas (ALPR):** Captura de video en tiempo real, detección de placas y extracción de texto mediante OCR.
 *    **Gestión de Espacios:** Verificación de disponibilidad y asignación automática de lugares libres al momento de la entrada.
@@ -29,7 +27,7 @@ El sistema está diseñado bajo una propuesta de arquitectura orientada a micros
 
 ---
 
-## 🚀 Instalación y Uso
+##  Instalación y Uso
 
 ### Prerrequisitos
 *   Python 3.8 o superior (Desarrollado con Python 3.14).
@@ -87,7 +85,7 @@ curl -X 'POST' 'http://127.0.0.1:8000/api/salida?placa=ABC123' -H 'accept: appli
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```text
 EstacionamientoPlacas/
@@ -106,5 +104,3 @@ EstacionamientoPlacas/
 
 ---
 
-**Autores:** Martin Diego Acevedo Gonzalez & Miguel Alain Aleman Gonzalez  
-**Materia:** Ingeniería de Software  
